@@ -1,13 +1,10 @@
 import React from "react";
 import Card from "./card/Card";
 import CardCenter from "./card/CardCenter";
-import CardLeft from "./clientCard/CardLeft";
-import CardRight from "./clientCard/CardRight";
 
 const Banner = () => {
   return (
     <div>
-      {/* Main Banner Section */}
       <section className="grid md:grid-cols-2 gap-10 p-10 bg-[#222222] text-center md:text-left items-center">
         <div className="flex flex-col gap-5">
           <h1 className="text-[#38F881] text-3xl md:text-6xl font-bold leading-tight">
